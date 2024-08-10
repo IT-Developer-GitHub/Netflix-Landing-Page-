@@ -1,0 +1,224 @@
+body{
+    background-color:
+    
+#2d2d2d;
+}
+.logo{
+    width: 130px;
+    height: 80px;
+    margin-left: 120px;
+    margin-top: 25px;
+    
+}
+.login{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 1px solid ; 
+    border-color: brown;
+    border-radius: 2px;
+    margin-left: 700px;
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 5px, 5px, 5px;
+}
+.signup{
+    
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    color: blanchedalmond;
+    border: 1px solid ; 
+    border-color: brown;
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    
+    }
+    header {
+        background-image: url(../back.jpg);
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        position: relative;
+        
+        margin-right: 50px;
+        
+        background-color: #2d2d2d;
+    }
+    
+.header-content{
+    margin-top: 120px;
+    align-items: center;
+    text-align: center;
+}
+    
+.header-content h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    
+}
+.header-content h3{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.header-content p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.btn{
+    padding: 15px 30px;
+    background-color: red;
+    color: #f7f4f4;
+    font-size: 17px;
+    font-weight: 200;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+.email{
+    padding: 15px 90px;
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    border: 1px solid inherit;
+    text-align: left;
+    border: 1px solid white;
+    text-align: left;
+    color: white;
+    
+    
+
+}
+.features{
+    
+    font-size: 22px;
+    color: #fff;
+
+}
+.features h2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.features p{
+    font-size: 25px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    }
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+   display: block;
+   width: 90%;
+   
+}
+.box{
+    margin-top: 10px;
+    border-radius: 10px;}
+
+
+.faq{
+    padding: 10px 14%;
+    text-align: center;
+    color: #f7f4f4;
+    }    
+    .faq h1{
+        font-size: 50px;
+        font-weight: 800;
+
+    }
+    .question{
+        width: 100%;
+        margin:  auto;
+    }
+    .question li{
+        list-style: none;
+        width: 100%;
+        margin-top: 2px;
+        
+    }
+    .question li label{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        font-size:30px;
+        cursor: pointer;
+        position: relative;
+        background-color: #2d2d2d;;
+
+    }
+    label::after{
+        content: '+';
+        position: absolute;
+        right: 20px;
+        font-size: 30px;
+        transition: transform 0.5s;
+    }
+    input[type="checkbox"]{
+        display: none;
+        
+    }
+    .question .content{
+        overflow: hidden;
+        padding: 0 20px;
+        text-align: left;
+        background-color: #303030;
+        max-height: 0;
+        transition: max-height 0.5s padding 0.5s;
+        margin-top: 2px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .question input[type="checkbox"]:checked + label + .content {
+
+        max-height: 600px;
+        padding: 30px 20px;
+    }
+    .question input[type="checkbox"]:checked + label::after{
+
+        transform: rotate(135deg);
+    }
+    .email-label{
+        align-items: center;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .footer-mail{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    padding-bottom: 50px;
+    }
+    .Footer ul{
+        color:#fff;
+        text-decoration: underline;
+        padding-top: 250px;
+        text-decoration: none;
+        padding-left: 250px;
+        
+
+
+
+
+    }
